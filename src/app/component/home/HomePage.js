@@ -5,6 +5,7 @@ import Projects from "../profile/Projects";
 import Skill from "../profile/Skill";
 import Education from "../profile/Education";
 import Experience from "../profile/Experience";
+import Contact from "../profile/Contact";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Skill />
       <Experience />
       <Projects />
+      <Contact />
     </div>
   );
 }
