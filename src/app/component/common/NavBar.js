@@ -19,7 +19,11 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 w-full bg-background text-foreground p-4 flex justify-between items-center shadow-md">
       {/* Left Side: Logo */}
       <div className="text-2xl font-bold">
-        <span style={{ color: "rgb(128, 0, 255)" }}>Shah</span> Nawrose
+        <span className={`${
+          darkMode
+            ? "text-custom-dark"
+            : "text-custom-blue"
+        }`}>Shah Nawrose</span>
       </div>
 
       {/* Mobile Menu Button */}
